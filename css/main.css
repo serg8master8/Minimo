@@ -1,0 +1,154 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+.img-adaptive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 60%;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    margin: 0;
+}
+
+header{
+    height: 160px;
+}
+
+header div img{
+    display: inline-block;
+    margin-top: 70px;
+    
+}
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 70px 0 0 70px;
+    
+    
+}
+header nav ul li a{
+    color: #626262;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: #626262;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+
+
+
+section.content-post{
+    margin-top: 80px;
+    padding: 0 80px !important; 
+}
+
+section.content-post div.category a, section.content-post a.comment{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+
+
+section.content-post div.category a:hover, section.content-post a.comment:hover{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+
+section.content-post h2{
+    color: #626262;
+    font-size: 30px;
+}
+
+section.content-post p{
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+section.next-post {
+    margin-top: 130px;
+}
+
+section.next-post div.post div.category{
+    color: #b4ad9e;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+
+}
+
+section.next-post div.post h2{
+    font-size: 20px;
+
+}
+
+section.next-post div.post p{
+    font-size: 14px;
+    margin-bottom: 130px;
+}
+
+div.sign-up{
+    background-color: #f0f0f0;
+    height: 280px;
+    
+}
+div.sign-up div.sign{
+    text-align: center;
+    padding-top: 75px;
+    font-size: 30px;
+    margin-bottom: 75px;
+}
+
+div.sign-up form{
+   width: 400px;
+   border-bottom: 1px solid black;
+   margin: 0 auto;
+  
+}
+
+div.sign-up form input{
+    border: 0;
+    background-color: #f0f0f0;
+
+    
+}
+
+div.sign-up button{
+    float: right;
+    border: 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+section.next-assets div.post{
+    margin-top: 115px;
+}
